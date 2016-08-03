@@ -1,0 +1,30 @@
+{
+  "name": "harbor-metadata-api",
+  "version": "0.1.0",
+  "description": "A Metadata Service for Harbor",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turnerlabs/harbor-metadata-api.git"
+  },
+  "keywords": [
+    "harbor",
+    "metadata"
+  ],
+  "author": {
+    "name": "Wilson Wise",
+    "email": "wilson.wise@turner.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/turnerlabs/harbor-metadata-api/issues"
+  },
+  "engines": {
+    "node": "4.4.7"
+  },
+  "homepage": "https://github.com/turnerlabs/harbor-metadata-api#readme"
+}
